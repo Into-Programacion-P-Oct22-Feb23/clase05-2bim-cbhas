@@ -11,18 +11,14 @@ public class Ejemplo07 {
         int[] potencias = {2, 3};
 
         for (int i = 0; i < valores.length; i++) {
-            for (int j = 0; j < potencias.length; j++) {
-                System.out.printf("El valor %d elevado a la potencia 2, es: %d\n",
+            System.out.printf("El valor %d elevado a la potencia 2, es: %d\n",
                     valores[i],
                     obtenerPotencia(valores[i],
-                            potencias[j]));
+                            potencias[0]));
             System.out.printf("El valor %d elevado a la potencia 3, es: %d\n\n",
                     valores[i],
                     obtenerPotencia(valores[i],
-                            potencias[j]));
-
-            }
-            
+                            potencias[1]));
 
         }
 
