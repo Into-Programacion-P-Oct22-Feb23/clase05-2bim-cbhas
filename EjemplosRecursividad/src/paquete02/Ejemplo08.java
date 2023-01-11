@@ -24,11 +24,8 @@ public class Ejemplo08 {
 
         }
 
-        System.out.printf("\nEl total es: %d\n", misterio(valores, valores.length));
-
-        // Ingresar por teclado el tamaño de un arreglo
-        // Ingresar por teclado los valores enteros del arreglo
-        // Sumar los valores del arreglo, mediante la función misterio
+        System.out.printf("\nEl total es: %d\n",
+                misterio(valores, valores.length));
     }
 
     public static int misterio(int[] arreglo, int tamanio) {
